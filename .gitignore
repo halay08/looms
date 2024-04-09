@@ -1,0 +1,20 @@
+.DS_Store
+codegen.*.js
+
+# node modules
+node_modules/
+.env
+
+# Log files
+npm-debug.log*
+
+# Compile dir
+/dist
+
+# Test dirs/files
+test
+.nyc_output
+coverage
+test-report.xml
+coverage.txt
+junit.xml

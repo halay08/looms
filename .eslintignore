@@ -1,0 +1,17 @@
+# don't lint:
+node_modules
+README.md
+codegen.js
+src/shared/generated.ts
+filterGenTypes.js
+
+# config files
+.eslintrc.js
+.prettierrc.js
+
+# don't lint build output
+dist
+build
+lib
+# don't lint unit-test coverage
+coverage
