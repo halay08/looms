@@ -17,5 +17,7 @@ You can run the script directly to delete all videos.
 
 ```sh
 $ cp .env.example .env
-$ pnpm bulkDelete
+$ npm bulkDelete # You can use `pnpm` but you will need to run `pnpm build` first.
 ```
+
+You may need to modify the search term in the [index.ts](./src/index.ts) file.

@@ -16,6 +16,7 @@
     "prebuild": "pnpm clean && pnpm build",
     "clean": "rimraf dist",
     "lint": "eslint 'src/**/*.{js,ts,jsx,tsx}' --quiet --fix",
+    "prebulkDelete": "pnpm build",
     "bulkDelete": "node dist/index.js"
   },
   "keywords": [],
